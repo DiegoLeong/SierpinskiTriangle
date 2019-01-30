@@ -1,12 +1,12 @@
 public void setup()
 {	
 	//noStroke();
-  size(400,400);
+  size(1000,1000);
 }
 public void draw()
 {
 	//sierpinski(0,400,400);
-  sierpinski(mouseX-200,mouseY+200,400);
+  sierpinski(mouseX-500,mouseY+500,1000);
 }
 public void mouseDragged()//optional
 {
